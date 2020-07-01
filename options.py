@@ -143,11 +143,11 @@ if __name__=="__main__":
                 put_option = Put(position_type, float(quantity), float(strike_price), float(cost))
                 options.append(put_option)
             else:
-                print "failed to parse input"
+                print "Failed to parse input."
                 input_success = False
                 break
         else:
-            print "failed to parse input"
+            print "Failed to parse input."
             input_success = False
             break
 
